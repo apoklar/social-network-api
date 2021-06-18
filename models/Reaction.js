@@ -18,8 +18,11 @@ const ReactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: createdAtVal => dateFormat(createdAtVal)
+            get: createdAtVal => new Intl.DateTimeFormat('en-US').format(createdAtVal)
         }
     }
 );
 
+const Reaction = model ('Reaction', ReactionSchema);
+
+module.exports = Reaction;

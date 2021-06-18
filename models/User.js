@@ -12,7 +12,7 @@ const UserSchema = new Schema(
         type: String,
         required: true,
         unique: true,
-        // Must match a valid email address
+        // match: insert regex
       },
       thoughts: [
         {
