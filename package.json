@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "A social network API created with Express and MongoDB.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoklar/social-network-api.git"
+  },
+  "author": "Andrea Poklar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apoklar/social-network-api/issues"
+  },
+  "homepage": "https://github.com/apoklar/social-network-api#readme"
+}
