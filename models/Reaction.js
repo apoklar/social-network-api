@@ -9,7 +9,7 @@ const ReactionSchema = new Schema(
         reactionBody: {
             type: String,
             required: true,
-            // 280 character maximum
+            max: 280
         },
         username: {
             type: String,
@@ -18,11 +18,9 @@ const ReactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: createdAtVal => new Intl.DateTimeFormat('en-US').format(createdAtVal)
+            get: date => new Intl.DateTimeFormat('en-US').format(date)
         }
     }
 );
 
-const Reaction = model ('Reaction', ReactionSchema);
-
-module.exports = Reaction;
+module.exports = ReactionSchema;

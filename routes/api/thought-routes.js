@@ -4,6 +4,9 @@ const {
     getAllThoughts,
     getOneThought,
     postOneThought,
+    updateThought,
+    removeThought,
+    createReaction
 } = require('../../controllers/thought-controller');
 
 
