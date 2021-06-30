@@ -7,8 +7,7 @@ The walkthrough videos for this project can be found below.
 
 Start application server and users:
 https://drive.google.com/file/d/1pxCrh1llIpM9iduZv8APL64rTd3zGk3R/view
-
-
+![image](https://user-images.githubusercontent.com/77218022/123886403-fb159100-d914-11eb-8d4a-381e42947f09.png)
 
 
 Thoughts:
